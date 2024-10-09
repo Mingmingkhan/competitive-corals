@@ -159,7 +159,7 @@ res[[3]][[4]]<-LF.gof(res[[2]][[3]], rmin = 0, rmax = 20)
 groupO.pink.res <- res
 
 save(groupO.pink.res, groupO.orange.res, 
-     file = "results/groupO_4models_res.RData")
+     file = "results_lfs/groupO_4models_res.RData")
 #Note, due to large file sizes, this file is not uploaded to 
 #GitHub and can instead be found in the linked Dropbox. To 
 #run further analyses on these results files, download it into
@@ -241,7 +241,7 @@ for (i in 1:21){
   }
 }
 
-save(groupP.orange.res, file = "results/groupP_orange_res.RData")
+save(groupP.orange.res, file = "results_lfs/groupP_orange_res.RData")
 
 
 # Now pink corals ---------------------------------------------------------
@@ -312,7 +312,7 @@ for (i in 1:21){
   }
 }
 
-save(groupP.pink.res, file = "results/groupP_pink_res.RData")
+save(groupP.pink.res, file = "results_lfs/groupP_pink_res.RData")
 
 groupP.pink.res <- groupB.pink.res2
 
@@ -389,7 +389,7 @@ for (i in 1:9){
   }
 }
 
-save(groupM.orange.res, file = "results/groupM_orange_res.RData")
+save(groupM.orange.res, file = "results_lfs/groupM_orange_res.RData")
 
 #now pink -----
 
@@ -458,5 +458,5 @@ for (i in 1:9){
   }
 }
 
-save(groupM.pink.res, file = "results/groupM_pink_res.RData")
+save(groupM.pink.res, file = "results_lfs/groupM_pink_res.RData")
 

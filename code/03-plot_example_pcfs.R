@@ -5,7 +5,7 @@
 
 # from group O orange - good for segregations  
 
-load(file = "results/groupO_4models_res.RData") #the results 
+load(file = "results_lfs/groupO_4models_res.RData") #the results 
 load(file = "data/GroupO_coral_ppp_marked.RData") #the ppp
 
 img0929_or <- groupO.orange.res$img0929
@@ -20,13 +20,13 @@ gc()
 
 # from group P - good for both aggregations and segregations 
 
-load(file = "results/groupP_pink_res.Rdata")
+load(file = "results_lfs/groupP_pink_res.Rdata")
 
 img0457_pink_res <- groupP.pink.res$img0457 #the results
 rm(groupP.pink.res)
 gc()
 
-load(file = "results/groupP_orange_res.RData")
+load(file = "results_lfs/groupP_orange_res.RData")
 img0457_or_res <- groupP.orange.res$img0457
 rm(groupP.orange.res)
 gc()
@@ -40,12 +40,12 @@ gc()
 
 # from group M - 1025 - good for agg/segg at diff scales 
 
-load(file = "results/groupM_pink_res.RData")
+load(file = "results_lfs/groupM_pink_res.RData")
 img1025_pink_res <- groupM.pink.res[[9]]
 rm(groupM.pink.res)
 gc()
 
-load(file = "results/groupM_orange_res.RData")
+load(file = "results_lfs/groupM_orange_res.RData")
 img1025_or_res <- groupM.orange.res$img1025
 rm(groupM.orange.res)
 gc()

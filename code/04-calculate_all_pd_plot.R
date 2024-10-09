@@ -4,7 +4,7 @@
 
 # Group O -----------------------------------------------------------------
 
-load(file = "results/groupO_4models_res.RData")
+load(file = "results_lfs/groupO_4models_res.RData")
 
 groupO.orange.out <- vector(mode = "list", length = 6)
 nm <- names(groupO.orange.res)
@@ -85,7 +85,7 @@ groupO.pink.out <- res
 # Group P -----------------------------------------------------------------
 
 # orange ----
-load(file = "results/groupP_orange_res.RData")
+load(file = "results_lfs/groupP_orange_res.RData")
 
 groupP.orange.out <- vector(mode = "list", length = 21)
 nm <- names(groupP.orange.res)
@@ -122,7 +122,7 @@ rm(groupP.orange.res)
 gc()
 
 #pink ----
-load(file = "results/groupP_pink_res.RData")
+load(file = "results_lfs/groupP_pink_res.RData")
 
 groupP.pink.out <- vector(mode = "list", length = 21)
 nm <- names(groupP.pink.res)
@@ -161,7 +161,7 @@ gc()
 # Group M -----------------------------------------------------------------
 
 # orange ----
-load(file = "results/groupM_orange_res.RData")
+load(file = "results_lfs/groupM_orange_res.RData")
 
 groupM.orange.out <- vector(mode = "list", length = 21)
 nm <- names(groupM.orange.res)
@@ -198,7 +198,7 @@ rm(groupM.orange.res)
 gc()
 
 #pink ----
-load(file = "results/groupM_pink_res.RData")
+load(file = "results_lfs/groupM_pink_res.RData")
 
 groupM.pink.out <- vector(mode = "list", length = 9)
 nm <- names(groupM.pink.res)
