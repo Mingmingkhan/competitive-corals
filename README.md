@@ -7,4 +7,4 @@ the spatstat-compatible "as.im" files are provided in RData file. These can be u
 "code/02-fit_ppp.R" onwards
 
 Model fit results are not in this repository as each file is over 2 GB, they can be accessed on Dropbox. 
-Download these into results folder, to use from "code/03-plot_example_pcfs.R" onwards. 
+Download these into a new "results_lfs" folder, to use from "code/03-plot_example_pcfs.R" onwards. 
